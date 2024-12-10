@@ -1,0 +1,11 @@
+<menu>
+    <menuitem label='Cliente'>
+        <icon>fa:cog fa-fw</icon>
+        <menu>
+            <menuitem label='Cadastro Cliente'>
+                <icon>fa:circle fa-fw</icon>
+                <action>Formulariocadastro</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+</menu>
