@@ -1,11 +1,26 @@
 <menu>
-    <menuitem label='Cliente'>
+    <menuitem label='Cadastros'>
         <icon>fa:cog fa-fw</icon>
         <menu>
             <menuitem label='Cadastro Cliente'>
                 <icon>fa:circle fa-fw</icon>
                 <action>Formulariocadastro</action>
             </menuitem>
+            <menuitem label='Produto'>
+                <icon>fa:circle fa-fw</icon>
+                <action>ListagemProduto</action>
+            </menuitem>
         </menu>
     </menuitem>
+
+    <menuitem label='Pedidos'>
+        <icon>fa:cog fa-fw</icon>
+        <menu>
+            <menuitem label='Fazer Pedidos'>
+                <icon>fa:circle fa-fw</icon>
+                <action>FormularioPedido</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+
 </menu>

@@ -11,7 +11,7 @@ class FormularioCadastro extends TPage
         parent::__construct();
         
         $this->form = new BootstrapFormBuilder;
-        $this->form->setFormTitle('Formulario de Cadastro');
+        $this->form->setFormTitle('Cadastro de Cliente');
 
         $this->datagrid = new BootstrapDatagridWrapper (new TDataGrid);
         $this->datagrid->width = '100%';
@@ -35,6 +35,7 @@ class FormularioCadastro extends TPage
         $this->form->addFields( [new TLabel('Endereço')],      [$endereco]);
 
         $this->form->addAction( 'Cadastrar', new TAction( [$this, 'onSend']), 'fa:save green');
+
 
         parent::add( $this->form );
 
